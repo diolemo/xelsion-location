@@ -6,7 +6,7 @@ require 'vendor/autoload.php';
 
 use MaxMind\Db\Reader;
 
-$ipAddress = $_SERVER['REMOTE_ADDR'];
+$ipAddress = $_SERVER['HTTP_X_XELSION_CLIENT_IP'];
 $databaseFile = 'geolite2-country.mmdb';
 
 $reader = new Reader($databaseFile);
