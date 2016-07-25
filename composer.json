@@ -1,0 +1,13 @@
+{
+    "name": "xelsion/location",
+    "description": "Returns the 2 character country code",
+    "authors": [
+        {
+            "name": "Jonathan Pike",
+            "email": "code@staite.net"
+        }
+    ],
+    "require": {
+        "maxmind-db/reader": "~1.0"
+    }
+}
